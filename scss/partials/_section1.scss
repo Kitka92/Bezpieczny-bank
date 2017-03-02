@@ -1,0 +1,42 @@
+.section1 {
+  margin-top: 0.8rem;
+  background-image: url("../../images/header.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  >div {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 200px;
+    border: 1px solid blue;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    background-color: $blue-bcg-color;
+    border-radius: 0.8rem;
+    h2 {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      font-size: 1rem;
+    }
+    h1 {
+      margin-left: 1rem;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+    button {
+      width: 12rem;
+      margin-top: 4rem;
+      margin-left: 1rem;
+      background-color: black;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding: 0.8rem 3rem 0.8rem 3rem;
+      border-radius: 0.8rem;
+      border: none;
+    }
+  }
+}
