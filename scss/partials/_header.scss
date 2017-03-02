@@ -1,0 +1,47 @@
+.logoPart {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  .logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 2rem;
+      font-weight: bolder;
+      margin-right: 0.3rem;
+    }
+  }
+  input {
+    position: relative;
+    left: 1rem;
+    width: 9rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+  }
+  .search {
+    position: relative;
+    right: 0.8rem;
+    padding-left: 0.1rem;
+  }
+  button {
+    font-family: "Tahoma", sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    width: 10rem;
+    background-color: $blue-bcg-color;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    position: relative;
+  }
+}
+
+
