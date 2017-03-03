@@ -1,0 +1,26 @@
+.section4 {
+  display: flex;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  padding: 2rem;
+  div {
+    flex-basis: 33%;
+    padding-left: 5rem;
+    &:nth-child(2) {
+      padding-left: 7rem;
+    }
+    &:nth-child(3) {
+      padding-left: 7rem;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 2rem;
+      li {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}

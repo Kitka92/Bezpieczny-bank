@@ -4,6 +4,7 @@
 @import "partials/section1";
 @import "partials/section2";
 @import "partials/section3";
+@import "partials/section4";
 
 html {
   font-size: 16px;
@@ -77,6 +78,9 @@ html {
     .flex {
       flex-direction: column;
       align-items: center;
+      .keys {
+        margin: 0 auto;
+      }
       .keysText {
         width: 50%;
       }
@@ -109,6 +113,19 @@ html {
         margin-left: 0;
         margin-top: 2rem;
       }
+    }
+  }
+  .section2 {
+    .spans.second {
+      flex-direction: column;
+    }
+  }
+  .section3 {
+    flex-direction: column;
+    div {
+     width: 50%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
   }
 }
