@@ -1,0 +1,28 @@
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+    .footer {
+    display: flex;
+    justify-content: flex-end;
+    span {
+      margin-right: auto;
+    }
+    ul {
+      display: flex;
+      li {
+        margin-left: 1rem;
+        padding-right: 1rem;
+        border-right: 1px solid grey;
+        &:last-child {
+          padding-right: 0;
+          border: none;
+        }
+        a {
+          color: #272727;
+        }
+      }
+    }
+  }
+}
