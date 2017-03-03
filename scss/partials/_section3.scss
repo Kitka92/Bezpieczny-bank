@@ -1,0 +1,29 @@
+.section3 {
+  background-color: $blue-bcg-color;
+  display: flex;
+  padding: 3rem;
+  div {
+    flex-basis: 33%;
+    border: 1px solid pink;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    button {
+      background-color: $blue-bcg-color;
+      border: #ffffff;
+      box-shadow: none;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-right: 4rem;
+      padding-left: 4rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+  }
+}
