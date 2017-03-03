@@ -20,6 +20,14 @@ html {
   padding-right: 0;
 }
 
+.section1 {
+  background-image: url("../images/header.png");
+}
+
+.keys {
+  background-image: url("../images/keys.png");
+}
+
 @media(max-width: 1145px) {
   nav {
     li {
