@@ -1,0 +1,102 @@
+.section2 {
+  .flex {
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 3rem;
+    .keys {
+      background-image: url("../../images/keys.png");
+      background-repeat: no-repeat;
+      height: 170px;
+      width: 170px;
+      margin-left: 3rem;
+      margin-top: 2.5rem;
+    }
+    .keysText {
+      width: 30%;
+      font-family: 'Raleway', sans-serif;
+      padding-left: 1rem;
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      p {
+        text-align: justify;
+      }
+      a {
+        text-decoration: underline;
+        color: $blue-bcg-color;
+      }
+    }
+  }
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.credit {
+  margin-left: 8rem;
+  width: 30%;
+  font-family: 'Raleway', sans-serif;
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .money {
+    .move {
+      div:first-child {
+        width: 100%;
+        height: 20px;
+        background-color: $stripes-bcg-color;
+        position: relative;
+      }
+      div:last-child {
+        width: 20%;
+        height: 40px;
+        background-color: $blue-bcg-color;
+        color: #ffffff;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 30px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.spans {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.move.second {
+  div:last-child {
+    position: relative;
+    left: 80%;
+  }
+}
+
+.money:last-of-type {
+  border-bottom: 2px solid $blue-bcg-color;
+}
+
+.spans.second {
+  height: 35px;
+  line-height: 35px;
+  .blueMoney {
+    color: $blue-bcg-color;
+    margin-left: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+  a {
+    text-decoration: underline;
+    color: $blue-bcg-color;
+  }
+}
