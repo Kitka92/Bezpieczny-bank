@@ -44,7 +44,7 @@ html {
   }
 }
 
-@media(max-width: 882px) {
+@media(max-width: 899px) {
   .container {
     padding: 1rem;
   }
@@ -65,7 +65,7 @@ html {
       flex-direction: column;
       flex-index: 1;
       position: absolute;
-      top: 6rem;
+      top: 8rem;
       background-color: rgba(255, 255, 255, 0.7);
       li {
         font-size: 1rem;
@@ -169,6 +169,32 @@ html {
 }
 
 @media(max-width: 438px) {
+  header {
+    .logoPart {
+      .logo {
+        span {
+          font-size: 1rem;
+        }
+      }
+      input {
+        width: 6rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+      }
+      .search {
+        display: none;
+      }
+      button {
+        width: 7rem;
+        margin-left: 1rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+    }
+  }
+  ::webkit-input-placeholder {
+    font-size: 0.5rem;
+  }
   .section1 {
     >div {
       height: 250px;

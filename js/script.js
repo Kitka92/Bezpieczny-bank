@@ -1,6 +1,10 @@
 $(document).ready(function(){
   
-  var hamburgerMenu = $('.btn');
+  $('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+  
+  var hamburgerMenu = $('#nav-icon3');
   var nav = $('nav');
   var list = nav.find('ul');
   hamburgerMenu.addClass('hidden');
@@ -26,24 +30,4 @@ $(document).ready(function(){
     
   });
   
-  /*
-  $(window).on('resize', function() {
-    if ($(window).width() <= 882) {
-      hamburgerMenu.removeClass('hidden');
-      nav.addClass('hidden');
-    } else {
-      hamburgerMenu.addClass('hidden');
-      nav.removeClass('hidden');
-    }
-  });
-  
-  hamburgerMenu.on('click', function() {
-    
-    if(nav.hasClass('hidden')) {
-      nav.show();
-    }
-    
-    
-  });
-  */
 });
