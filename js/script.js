@@ -30,19 +30,17 @@ $(document).ready(function(){
   */
   
   var hamburger = $('#nav-icon3');
-  var nav = $('nav')
+  var nav = $('nav');
   var list = nav.find('ul');
   
   hamburger.hide();
   
   if ($(window).width() <= 882) {
     hamburger.show();
-    nav.addClass('hidden');
-    console.log("mam mniej niż 882")
+    nav.hide();
   } else {
     hamburger.hide();
-    nav.removeClass('hidden');
-    console.log("mam więcej niż 882")
+    nav.show();
   }
   
   hamburger.on('click', function() {
