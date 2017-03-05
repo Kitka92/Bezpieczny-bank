@@ -1,10 +1,8 @@
 $(document).ready(function(){
+  
   /*
-  var hamburgerMenu = $('#nav-icon3');
-  var nav = $('nav');
-  var list = nav.find('ul');
-  hamburgerMenu.addClass('hidden');
-
+  IT WORKS ONLY ON RESIZE - DOESN'T WORK ON MOBILE
+  
   $(window).on('resize', function() {
     if ($(window).width() <= 882) {
       hamburgerMenu.removeClass('hidden');
@@ -15,18 +13,6 @@ $(document).ready(function(){
     }
   });
 
-  hamburgerMenu.on('click', function() {
-    
-    $(this).toggleClass('open');
-    
-    if (nav.is(':hidden')) {
-      nav.show();
-      list.css('flex-direction', 'column');
-    } else {
-      nav.hide();
-    }
-    
-  });
   */
   
   var hamburger = $('#nav-icon3');

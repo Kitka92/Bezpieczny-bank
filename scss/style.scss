@@ -1,5 +1,6 @@
 @import "modules/reset";
 @import "modules/variables";
+@import "modules/mixins";
 @import "partials/header";
 @import "partials/section1";
 @import "partials/section2";
@@ -192,9 +193,7 @@ html {
       }
     }
   }
-  ::webkit-input-placeholder {
-    font-size: 0.5rem;
-  }
+  @include inputPlaceholder
   .section1 {
     >div {
       height: 250px;
